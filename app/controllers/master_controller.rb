@@ -1,3 +1,5 @@
+require 'sinatra'
+
 get '/' do
-  redirect '/index.html'
+  html :index
 end
